@@ -253,9 +253,8 @@ footer{
   height: 100px;
   width: 80px;
 }
-.social p{
+.social p{}
 
-}
 .footer-con{
   display: flex;
   flex-wrap: wrap;
@@ -309,6 +308,16 @@ box-sizing: border-box;
 }
 address{
 font-style: normal;
+}
+
+.free-space{
+  width: 100px;
+}
+
+.others{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 
 address a {
